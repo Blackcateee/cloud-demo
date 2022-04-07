@@ -8,6 +8,15 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
 #      discovery:
 #        cluster-name: BJ #集群名称
+  rabbitmq:
+    host: 121.40.137.246
+    port: 5672
+    virtual-host: /
+    username: root
+    password: root
+    listener:
+      simple:
+        prefetch: 1
 mybatis:
   type-aliases-package: cn.itcast.user.pojo
   configuration:
