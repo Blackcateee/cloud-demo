@@ -3,3 +3,7 @@
 /feign-api/target/
 /order-service/target/
 /user-service/target/
+.idea
+*.iml
+out
+gen
